@@ -23,7 +23,6 @@ export class MuseumEntity {
   @Column()
   image: string;
 
-  // nuevo campo para el taller (filtros)
   @Column({ type: 'int', nullable: true })
   foundedBefore?: number;
 

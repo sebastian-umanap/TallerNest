@@ -1,10 +1,18 @@
-/* archivo: src/museum/museum.service.ts */
 /* eslint-disable prettier/prettier */
+// src/museum/museum.service.ts
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { BusinessError, BusinessLogicException } from '../shared/errors/business-errors';
 import { Repository } from 'typeorm';
 import { MuseumEntity } from './museum.entity';
+
+type MuseumQuery = {
+  city?: string;
+  name?: string;
+  foundedBefore?: number;
+  page?: number;
+  limit?: number;
+};
 
 @Injectable()
 export class MuseumService {
@@ -13,8 +21,24 @@ export class MuseumService {
     private readonly museumRepository: Repository<MuseumEntity>,
   ) {}
 
-  async findAll(): Promise<MuseumEntity[]> {
-    return this.museumRepository.find({ relations: ['artworks', 'exhibitions'] });
+  async findAll(q: MuseumQuery = {}): Promise<MuseumEntity[]> {
+    const { city, name, foundedBefore } = q;
+    const page = Math.max(q.page ?? 1, 1);
+    const limit = Math.min(Math.max(q.limit ?? 10, 1), 100);
+
+    const qb = this.museumRepository
+      .createQueryBuilder('m')
+      .leftJoinAndSelect('m.artworks', 'artworks')
+      .leftJoinAndSelect('m.exhibitions', 'exhibitions');
+
+    if (city) qb.andWhere('LOWER(m.city) LIKE :city', { city: `%${city.toLowerCase()}%` });
+    if (name) qb.andWhere('LOWER(m.name) LIKE :name', { name: `%${name.toLowerCase()}%` });
+    if (typeof foundedBefore === 'number') {
+      qb.andWhere('m.foundedBefore < :foundedBefore', { foundedBefore });
+    }
+
+    qb.skip((page - 1) * limit).take(limit);
+    return qb.getMany();
   }
 
   async findOne(id: string): Promise<MuseumEntity> {
