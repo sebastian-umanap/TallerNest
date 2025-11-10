@@ -1,0 +1,178 @@
+[
+  {
+    "name": "Museo del Oro",
+    "description": "Colección de orfebrería prehispánica.",
+    "address": "Cra. 6 # 15-88, Bogotá",
+    "city": "Bogotá",
+    "image": "https://picsum.photos/seed/oro/800/500",
+    "foundedBefore": 1939
+  },
+  {
+    "name": "Museo Nacional de Colombia",
+    "description": "Uno de los museos más antiguos de América.",
+    "address": "Carrera 7 #28-66, Bogotá",
+    "city": "Bogotá",
+    "image": "https://picsum.photos/seed/nal/800/500",
+    "foundedBefore": 1823
+  },
+  {
+    "name": "Museo de Arte Moderno",
+    "description": "Obras modernas y contemporáneas.",
+    "address": "Cll 24 #6-00, Ciudad",
+    "city": "Medellín",
+    "image": "https://picsum.photos/seed/moderno/800/500",
+    "foundedBefore": 1960
+  },
+  {
+    "name": "Smithsonian National Museum of Natural History",
+    "description": "Natural history at scale.",
+    "address": "10th St. & Constitution Ave. NW, Washington, DC",
+    "city": "Washington DC",
+    "image": "https://picsum.photos/seed/smithsonian/800/500",
+    "foundedBefore": 1910
+  },
+  {
+    "name": "Museo de Historia",
+    "description": "Historia local y regional.",
+    "address": "Av. Principal 123, Cali",
+    "city": "Cali",
+    "image": "https://picsum.photos/seed/historia/800/500",
+    "foundedBefore": 1890
+  },
+  {
+    "name": "Museo de Antioquia",
+    "description": "Arte colombiano y latinoamericano.",
+    "address": "Cl. 52 #52-43, Medellín",
+    "city": "Medellín",
+    "image": "https://picsum.photos/seed/antioquia/800/500",
+    "foundedBefore": 1881
+  },
+  {
+    "name": "Museo Botero",
+    "description": "Colección donada por Fernando Botero.",
+    "address": "Calle 11 #4-41, Bogotá",
+    "city": "Bogotá",
+    "image": "https://picsum.photos/seed/botero/800/500",
+    "foundedBefore": 2000
+  },
+  {
+    "name": "Museo de Arte Colonial",
+    "description": "Arte virreinal y colonial.",
+    "address": "Cra. 6 #9-77, Bogotá",
+    "city": "Bogotá",
+    "image": "https://picsum.photos/seed/colonial/800/500",
+    "foundedBefore": 1942
+  },
+  {
+    "name": "The Metropolitan Museum of Art",
+    "description": "Arte de todo el mundo y épocas.",
+    "address": "1000 5th Ave, New York, NY",
+    "city": "New York",
+    "image": "https://picsum.photos/seed/met/800/500",
+    "foundedBefore": 1870
+  },
+  {
+    "name": "Museum of Modern Art (MoMA)",
+    "description": "Arte moderno y contemporáneo.",
+    "address": "11 W 53rd St, New York, NY",
+    "city": "New York",
+    "image": "https://picsum.photos/seed/moma/800/500",
+    "foundedBefore": 1929
+  },
+  {
+    "name": "Louvre",
+    "description": "Museo nacional de Francia.",
+    "address": "Rue de Rivoli, Paris",
+    "city": "París",
+    "image": "https://picsum.photos/seed/louvre/800/500",
+    "foundedBefore": 1793
+  },
+  {
+    "name": "Museo del Prado",
+    "description": "Pintura europea, escuela española.",
+    "address": "C. de Ruiz de Alarcón 23, Madrid",
+    "city": "Madrid",
+    "image": "https://picsum.photos/seed/prado/800/500",
+    "foundedBefore": 1819
+  },
+  {
+    "name": "Tate Modern",
+    "description": "Arte contemporáneo internacional.",
+    "address": "Bankside, London",
+    "city": "Londres",
+    "image": "https://picsum.photos/seed/tate/800/500",
+    "foundedBefore": 2000
+  },
+  {
+    "name": "Uffizi",
+    "description": "Galería de arte del Renacimiento.",
+    "address": "Piazzale degli Uffizi, Firenze",
+    "city": "Florencia",
+    "image": "https://picsum.photos/seed/uffizi/800/500",
+    "foundedBefore": 1581
+  },
+  {
+    "name": "Hermitage",
+    "description": "Uno de los museos más grandes del mundo.",
+    "address": "Palace Square, Saint Petersburg",
+    "city": "San Petersburgo",
+    "image": "https://picsum.photos/seed/hermitage/800/500",
+    "foundedBefore": 1764
+  },
+  {
+    "name": "British Museum",
+    "description": "Historia y cultura humana.",
+    "address": "Great Russell St, London",
+    "city": "Londres",
+    "image": "https://picsum.photos/seed/british/800/500",
+    "foundedBefore": 1753
+  },
+  {
+    "name": "National Gallery",
+    "description": "Pintura europea siglos XIII–XX.",
+    "address": "Trafalgar Square, London",
+    "city": "Londres",
+    "image": "https://picsum.photos/seed/national/800/500",
+    "foundedBefore": 1824
+  },
+  {
+    "name": "Rijksmuseum",
+    "description": "Arte e historia neerlandesa.",
+    "address": "Museumstraat 1, Amsterdam",
+    "city": "Ámsterdam",
+    "image": "https://picsum.photos/seed/rijks/800/500",
+    "foundedBefore": 1800
+  },
+  {
+    "name": "Guggenheim Bilbao",
+    "description": "Arquitectura icónica y arte moderno.",
+    "address": "Abandoibarra Etorb., Bilbao",
+    "city": "Bilbao",
+    "image": "https://picsum.photos/seed/guggenheim/800/500",
+    "foundedBefore": 1997
+  },
+  {
+    "name": "Centre Pompidou",
+    "description": "Arte moderno y contemporáneo.",
+    "address": "Place Georges-Pompidou, Paris",
+    "city": "París",
+    "image": "https://picsum.photos/seed/pompidou/800/500",
+    "foundedBefore": 1977
+  },
+  {
+    "name": "Museo Reina Sofía",
+    "description": "Arte del siglo XX y contemporáneo.",
+    "address": "C. de Sta. Isabel 52, Madrid",
+    "city": "Madrid",
+    "image": "https://picsum.photos/seed/reinasofia/800/500",
+    "foundedBefore": 1990
+  },
+  {
+    "name": "Museo de la Ciencia",
+    "description": "Exhibiciones interactivas de ciencia.",
+    "address": "Av. Ciencia 456, Valencia",
+    "city": "Valencia",
+    "image": "https://picsum.photos/seed/ciencia/800/500",
+    "foundedBefore": 2000
+  }
+]
